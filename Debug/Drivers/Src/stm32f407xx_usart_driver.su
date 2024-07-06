@@ -7,6 +7,8 @@
 ../Drivers/Src/stm32f407xx_usart_driver.c:351:9:USART_ReceiveDataIT	32	static
 ../Drivers/Src/stm32f407xx_usart_driver.c:375:6:USART_IRQInterruptConfig	16	static
 ../Drivers/Src/stm32f407xx_usart_driver.c:399:6:USART_IRQPriorityConfig	24	static
-../Drivers/Src/stm32f407xx_usart_driver.c:412:9:USART_GetFlagStatus	16	static
-../Drivers/Src/stm32f407xx_usart_driver.c:419:6:USART_PeripheralControl	16	static
-../Drivers/Src/stm32f407xx_usart_driver.c:426:6:USART_SetBaudRate	40	static
+../Drivers/Src/stm32f407xx_usart_driver.c:406:6:USART_IRQHandling	32	static
+../Drivers/Src/stm32f407xx_usart_driver.c:714:9:USART_GetFlagStatus	16	static
+../Drivers/Src/stm32f407xx_usart_driver.c:721:6:USART_PeripheralControl	16	static
+../Drivers/Src/stm32f407xx_usart_driver.c:728:6:USART_SetBaudRate	40	static
+../Drivers/Src/stm32f407xx_usart_driver.c:805:13:USART_ApplicationEventCallback	16	static

@@ -6,19 +6,19 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Src/003SPI_CMD_Handling.c \
-../Src/005I2C_Master_Rx_Arduino.c \
+../Src/006USART_TTL_TO_USB.c \
 ../Src/syscalls.c \
 ../Src/sysmem.c 
 
 OBJS += \
 ./Src/003SPI_CMD_Handling.o \
-./Src/005I2C_Master_Rx_Arduino.o \
+./Src/006USART_TTL_TO_USB.o \
 ./Src/syscalls.o \
 ./Src/sysmem.o 
 
 C_DEPS += \
 ./Src/003SPI_CMD_Handling.d \
-./Src/005I2C_Master_Rx_Arduino.d \
+./Src/006USART_TTL_TO_USB.d \
 ./Src/syscalls.d \
 ./Src/sysmem.d 
 
@@ -30,7 +30,7 @@ Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/003SPI_CMD_Handling.cyclo ./Src/003SPI_CMD_Handling.d ./Src/003SPI_CMD_Handling.o ./Src/003SPI_CMD_Handling.su ./Src/005I2C_Master_Rx_Arduino.cyclo ./Src/005I2C_Master_Rx_Arduino.d ./Src/005I2C_Master_Rx_Arduino.o ./Src/005I2C_Master_Rx_Arduino.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+	-$(RM) ./Src/003SPI_CMD_Handling.cyclo ./Src/003SPI_CMD_Handling.d ./Src/003SPI_CMD_Handling.o ./Src/003SPI_CMD_Handling.su ./Src/006USART_TTL_TO_USB.cyclo ./Src/006USART_TTL_TO_USB.d ./Src/006USART_TTL_TO_USB.o ./Src/006USART_TTL_TO_USB.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
 
 .PHONY: clean-Src
 

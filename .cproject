@@ -74,7 +74,7 @@
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
-						<entry excluding="004I2C_Master_arduino.c|002_SPI_TXonly_Arduino.c|003_SPI_MasterSlave_Communication.c|001_SPI_TX.c|main.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry excluding="005I2C_Master_Rx_Arduino.c|004I2C_Master_arduino.c|002_SPI_TXonly_Arduino.c|003_SPI_MasterSlave_Communication.c|001_SPI_TX.c|main.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Startup"/>
 					</sourceEntries>
 				</configuration>
@@ -149,7 +149,7 @@
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
-						<entry excluding="004I2C_Master_arduino.c|002_SPI_TXonly_Arduino.c|003_SPI_MasterSlave_Communication.c|001_SPI_TX.c|main.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry excluding="005I2C_Master_Rx_Arduino.c|004I2C_Master_arduino.c|002_SPI_TXonly_Arduino.c|003_SPI_MasterSlave_Communication.c|001_SPI_TX.c|main.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Startup"/>
 					</sourceEntries>
 				</configuration>

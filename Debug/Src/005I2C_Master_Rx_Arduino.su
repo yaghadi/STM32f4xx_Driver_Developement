@@ -1,5 +1,0 @@
-../Src/005I2C_Master_Rx_Arduino.c:21:6:delay	16	static
-../Src/005I2C_Master_Rx_Arduino.c:36:6:I2C1_GPIOInits	24	static
-../Src/005I2C_Master_Rx_Arduino.c:59:6:I2C1_Inits	8	static
-../Src/005I2C_Master_Rx_Arduino.c:71:6:GPIO_ButtonInit	24	static
-../Src/005I2C_Master_Rx_Arduino.c:87:5:main	24	static

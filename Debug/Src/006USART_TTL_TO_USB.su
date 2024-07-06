@@ -1,0 +1,5 @@
+../Src/006USART_TTL_TO_USB.c:16:6:USART4_Init	8	static
+../Src/006USART_TTL_TO_USB.c:28:6:USART4_GPIOInit	24	static
+../Src/006USART_TTL_TO_USB.c:50:6:GPIO_ButtonInit	32	static
+../Src/006USART_TTL_TO_USB.c:78:6:delay	16	static
+../Src/006USART_TTL_TO_USB.c:84:5:main	8	static
